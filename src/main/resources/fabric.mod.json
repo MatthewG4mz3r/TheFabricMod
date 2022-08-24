@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "thefabricmod",
+  "version": "${version}",
+  "name": "Thefabricmod",
+  "description": "",
+  "authors": [
+    "Matthew"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.classiks.thefabricmod.Thefabricmod"
+    ],
+    "client": [
+      "com.classiks.thefabricmod.client.ThefabricmodClient"
+    ]
+  },
+  "mixins": [
+    "thefabricmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
